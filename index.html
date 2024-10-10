@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 
-<body>
+<body class="light-theme" aria-label="O site está utilizando o tema light" role="body">
     <header>
         <audio id="music" autoplay>
             <source src="assets/musics/normal-world.mpeg" />
@@ -25,9 +25,10 @@
             </p>
             <button id="switch-theme-button" onclick="switchTheme()">Inverter Mundos</button>
         </div>
-        <div id="top-characters" class="world-characters"></div>
+        <div  class="world-characters" id="top-characters"></div>
     </header>
     <main>
+        <div  class="world-characters" id="bottom-characters"></div>
         <section id="section-inverted-world" class="container">
             <div class="section-texts">
                 <h1>O Mundo Invertido</h1>
